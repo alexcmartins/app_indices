@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <meta http-equiv='cache-control' content='no-cache'> 
+    <meta http-equiv='expires' content='0'> 
+    <meta http-equiv='pragma' content='no-cache'> 
+    <title>App Índices</title>
+</head>
+<body>
+    <h1>Índices</h1>
+    <label>Escolha a moeda para cotação:
+        <input list="currency" id=choose placeholder="Dolar"/></label>
+        <button onclick="valueList()" id="quote">Cotar</button>
+        <button onclick="valueReset()" id="reset">Limpar</button>
+            <datalist id="currency">
+                <option selected value="usd">Dolar</option>
+                <option value="eur">Euro</option>
+                <option value="gbp">Libra</option>
+                <option value="btc">Bitcoin</option>
+                <option value="eth">Ethereum</option>
+            </datalist>
+    <div id="price"></div>
+    <script src='../modules/api_front.js'></script>
+</body>
+</html>
