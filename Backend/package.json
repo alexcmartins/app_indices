@@ -1,13 +1,13 @@
 {
   "name": "new_app",
   "version": "1.0.0",
-  "description": "",
+  "description": "App de estudo com nodejs, html5 e css",
   "main": "index.js",
   "scripts": {
     "test": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alex Cantareira Martins",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
