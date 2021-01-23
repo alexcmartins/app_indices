@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yusei+Magic&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+input#choose {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 0px;
+}
+
+button#quote {
+    background-color: #0db971;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+button#quote:hover {
+    opacity: 1;
+    border-radius: 12px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button#reset {
+    background-color: #cc1212;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+button#reset:hover {
+    opacity: 1;
+    border-radius: 12px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
