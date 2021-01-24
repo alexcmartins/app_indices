@@ -20,13 +20,15 @@ ainda não estão sendo armazenadas em banco de dados.
 O Front End está somente em HTML5 e CSS3.
 
 **Versão 1.0** disponibilizada em **22/01/2021**
+**Versão 1.1** disponibilizada em **24/01/2021**
 
-**OBS:** uma nova versão já está em desenvolvimento
+**OBS:** App em constante desenvolvimento.
 
 ## **Notas:** Aprendizado
 
 - Com essa pequena app criei uma api do zero, assimilando toda a lógica de funcionamento
-- Habilitação da porta (3030) para ser acessada, criação de rotas para solicitação de cada moeda
+- Habilitação da porta (3030), criação de rotas para solicitação de cada moeda com a nova alteração as rotas
+passaram ser dinâmicas.
 - Liberação de acesso externos com o CORS
 - Utilização do axios e fetch para as requisições, axios no Back End e Fetch no Front End
 - Utilização do Async/await, tratando os erros e respostas com o Try e Catch
