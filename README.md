@@ -20,6 +20,7 @@ ainda não estão sendo armazenadas em banco de dados.
 O Front End está somente em HTML5 e CSS3.
 
 **Versão 1.0** disponibilizada em **22/01/2021**
+
 **Versão 1.1** disponibilizada em **24/01/2021**
 
 **OBS:** App em constante desenvolvimento.
