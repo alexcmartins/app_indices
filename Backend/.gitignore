@@ -1,4 +1,4 @@
 # Ignorando o node_modules
 node_modules/
 # Ignorando a chave da Api
-modules/key.mjs
+../modules/key.mjs
