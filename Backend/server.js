@@ -1,9 +1,20 @@
-import cors from 'cors'; 
-import axios from 'axios'; 
-import express from 'express';
+const cors = require('cors'); 
+const axios = require('axios'); 
+const express = require('express');
 const app = express()
 const port = 3030
-import { key } from '../modules/key.mjs';
+const key = require('../modules/key');
+const connection = require('../database/database');
+
+connection.authenticate()
+    .then(() => {
+        console.log('Conexão estabelecida com sucesso!!');
+    })
+    .catch ((error) => {
+    console.error('Não foi possível conectar ao banco:', error);
+  });
+
+  console.log(conect)
 
 app.use(cors())
 
