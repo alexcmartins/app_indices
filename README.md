@@ -24,22 +24,30 @@ O Front End está somente em HTML5 e CSS3.
 
 **Versão 1.2** desenvolvida em **08/02/2021**
 
-- Inclusão da rota criptomoedas, requisição feita com chave no headers
+- Inclusão de criptomoedas, requisição feita com chave no headers e passagem de parametros.
 
 **Versão 1.3** desenvolvida em **09/02/2021**
 
-- instalação do Sequelize.
+- Instalação do Sequelize.
+
+**Versão 1.4** desenvolvida em **15/02/2021**
+
+- Configuração da conexão com o Banco de dados.
+- Criação do modulo api_cripto.
+- Criação de tabela no banco.
 
 **OBS:** App em constante desenvolvimento.
 
 ## **Notas:** Aprendizado
 
-- Desenvolvimento da api do zero, assimilando toda a lógica e funcionamento.
-- Habilitação da porta (3030), criação da rota para solicitação de cada moeda com a nova alteração a rota passou a ser dinâmica.
+- Desenvolvimento do servidor para api, assimilando toda a lógica e funcionamento.
+- Habilitação da porta (8080), criação da rota dinâmica para solicitação de moedas.
 - Liberação de acesso externos com o CORS.
 - Utilização do axios e fetch para as requisições e respostas, axios no Back End e Fetch no Front End.
-- Utilização do Async/await, tratativas de erros com o Try e Catch.
+- Utilização do Async/await e tratativas de erros com o Try e Catch.
 - Manipulação de DOM, ler e escrever em elementos HTML5 atraves do JavaScript.
 - Mapear a resposta da requisição e utilizar campos específicos.
-- Consumir dados de Api que necessita de chave para autorização com configuraçãoes na requisição.
+- Consumir dados de Api externa que necessita de chave e parametros para autorização.
 - Criação do banco de dados.
+- Configuração da conexão com o banco de dados.
+- Criação de tabela via modelo do Sequelize.
