@@ -1,9 +1,10 @@
-const { Sequelize } = require('/home/cantareiramartins/Área de Trabalho/new_app/Backend/node_modules/sequelize/lib/sequelize');
+const { Sequelize } = require('../Backend/node_modules/sequelize/index');
 const { userName, password } = require('../modules/key');
 
+/*Configuração da conexão com o banco de dados*/
 const connection = new Sequelize('appfinance', `${userName}` , `${password}`, {
     host: 'localhost',
     dialect: 'mysql'
 });
 
-module.exports = connection;
+module.exports = { connection };
