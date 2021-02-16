@@ -26,7 +26,7 @@ const cripto = async function() {
   }
 
 /*Acesso ao banco de dados*/
-connection.authenticate()
+/*connection.authenticate()
   .then(() => {
       console.log('Conexão estabelecida com sucesso!!');
   })
@@ -34,7 +34,7 @@ connection.authenticate()
   console.error('Não foi possível conectar ao banco:', error);
 });
 
-console.log(connection)
+console.log(connection)*/
 
 module.exports = { cripto };
 

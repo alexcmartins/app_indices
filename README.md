@@ -38,7 +38,7 @@ O Front End está somente em HTML5 e CSS3.
 
 **OBS:** App em constante desenvolvimento.
 
-## **Notas:** Aprendizado
+## Aprendizado
 
 - Desenvolvimento do servidor para api, assimilando toda a lógica e funcionamento.
 - Habilitação da porta (8080), criação da rota dinâmica para solicitação de moedas.
