@@ -7,4 +7,4 @@ const connection = new Sequelize('appfinance', `${userName}` , `${password}`, {
     dialect: 'mysql'
 });
 
-module.exports = { connection };
+module.exports = { connection, Sequelize };
