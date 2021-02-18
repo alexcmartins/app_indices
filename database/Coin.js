@@ -1,4 +1,3 @@
-const { Console } = require('console');
 const db = require('./database')
 
 const Coin = db.connection.define("coin", {
@@ -21,17 +20,13 @@ const Coin = db.connection.define("coin", {
         type: db.Sequelize.STRING
     },
     max_supply:{
-        type: db.Sequelize.INTEGER
+        type: db.Sequelize.BIGINT
     },
     circulating_supply:{
-        type: db.Sequelize.INTEGER
+        type: db.Sequelize.BIGINT
     },
     total_supply:{
-        type: db.Sequelize.INTEGER
-    },
-    last_updated_supply:{
-        allowNull: false,
-        type: db.Sequelize.DATE
+        type: db.Sequelize.BIGINT
     },
     conversion_currency:{
         allowNull: false,
@@ -136,4 +131,6 @@ const Coin = db.connection.define("coin", {
 
 Coin.sync({force: false}).then(() =>{
     console.log('Tabela Criada com Sucesso!')
-})
+});
+
+module.exports = Coin;
