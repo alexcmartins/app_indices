@@ -35,9 +35,17 @@ O Front End está somente em HTML5 e CSS3.
 - Configuração da conexão com o Banco de dados.
 - Criação do modulo api_cripto com evento de disparo para consumo de api externa.
 - Criação do modulo api_exchange com evento de disparo para consumo de api externa.
-- Criação de tabela no banco.
+- Criação da tabela no banco.
 
-**OBS:** App em constante desenvolvimento.
+**Versão 1.5** desenvolvida em **19/02/2021**
+
+- Tratativas nas respostas das requisições e salvando os dados na tabela.
+
+**Versão 1.6** desenvolvida em **20/02/2021**
+
+- Alteração na estrutura do projeto.
+
+**OBS:** App em constante evolução.
 
 ## Aprendizado
 
@@ -51,7 +59,8 @@ O Front End está somente em HTML5 e CSS3.
 - Consumo de Api externa com configurações de chave e parametros.
 - Criação do banco de dados.
 - Configuração da conexão com o banco de dados.
-- Criação de tabela via Sequelize.
+- Criação da tabela via Sequelize.
+- Salvar dados na tabela.
 
 ## Créditos
 

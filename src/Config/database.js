@@ -1,5 +1,5 @@
-const { Sequelize } = require('../Backend/node_modules/sequelize/index');
-const { nameBD, userName, password } = require('../Modules/key');
+const { Sequelize } = require('sequelize');
+const { nameBD, userName, password } = require('../Config/key');
 
 /*Configuração da conexão com o banco de dados*/
 const connection = new Sequelize(`${nameBD}`, `${userName}` , `${password}`, {
