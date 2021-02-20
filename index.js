@@ -4,8 +4,8 @@ const express = require('express');
 const app = express();
 const port = 8080;
 //const Sequelize = require('sequelize');
-const { cripto } = require('../modules/api_cripto');
-const { exchange } = require('../modules/api_exchange');
+const { cripto } = require('./src/modules/api_cripto');
+const { exchange } = require('./src/modules/api_exchange');
 //const { key } = require('../modules/key');
 //const Coin = require('../database/Coin');
 //const { connection } = require('../database/database');
@@ -36,7 +36,7 @@ const coinExchange = setInterval(exchange, 120000);
 console.log(coinExchange)
 
 /*Rota dinâmica*/
-app.get('/currency', async(req, res) => {
+app.get('/', async(req, res) => {
     try {
         //var currency = req.params.currency
         return res.send('Seja bem vindo!!')

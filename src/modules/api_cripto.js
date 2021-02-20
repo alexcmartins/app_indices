@@ -1,8 +1,7 @@
-//const Sequelize = require('../Backend/node_modules/sequelize')
-const axios = require('../Backend/node_modules/axios')
+const axios = require('axios')
 //const { connection } = require('../database/database.js');
-const { key } = require('../modules/key');
-const Coin = require('../database/Coin');
+const { key } = require('../Config/key');
+const Coin = require('../Models/Coin');
 
 /*Função que faz uma requisição e recebe as moedas selecionadas abaixo em dolar*/
 const cripto = async function() { 

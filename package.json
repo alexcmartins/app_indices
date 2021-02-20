@@ -4,11 +4,11 @@
   "description": "App para consulta de índices financeiros, câmbios e criptomoedas",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon server.js"
+    "test": "nodemon index.js"
   },
   "keywords": [],
   "author": "Alex Cantareira Martins",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
     "cors": "^2.8.5",
