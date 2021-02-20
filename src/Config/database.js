@@ -1,8 +1,8 @@
 const { Sequelize } = require('../Backend/node_modules/sequelize/index');
-const { userName, password } = require('../modules/key');
+const { nameBD, userName, password } = require('../Modules/key');
 
 /*Configuração da conexão com o banco de dados*/
-const connection = new Sequelize('appfinance', `${userName}` , `${password}`, {
+const connection = new Sequelize(`${nameBD}`, `${userName}` , `${password}`, {
     host: 'localhost',
     dialect: 'mysql'
 });

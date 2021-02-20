@@ -2,8 +2,8 @@ const cors = require('cors');
 const express = require('express');
 const app = express();
 const port = 8080;
-const { cripto } = require('./src/modules/api_cripto');
-const { exchange } = require('./src/modules/api_exchange');
+const { cripto } = require('./src/Modules/api_cripto');
+const { exchange } = require('./src/Modules/api_exchange');
 const router = require('./src/Routes/router');
 //const { connection } = require('../database/database');
 
