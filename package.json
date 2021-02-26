@@ -1,5 +1,5 @@
 {
-  "name": "new_app",
+  "name": "app_indices",
   "version": "1.6.0",
   "description": "App para consulta de índices financeiros, câmbios e criptomoedas",
   "main": "index.js",
