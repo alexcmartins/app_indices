@@ -69,8 +69,10 @@ O Front End está em outro projeto e o framework é Vue.JS.
 - Criação do banco de dados.
 - Configuração da conexão com o banco de dados.
 - Criação da tabela via Sequelize.
-- Salvar dados na tabela.
+- Salvar dados na tabela (Sequelize - ORM).
+- Realizar consultas na tabela (Sequelize - ORM).
+- Criação de rotas para consumo externo da API.
 
 ## Créditos
 
-Agradeço a minha esposa pelo incentivo e ajuda de dois amigos desenvolvedores Lucas e Francisco.
+Agradeço a minha esposa pelo incentivo e à ajuda de dois amigos meus desenvolvedores o Lucas e o Francisco.
