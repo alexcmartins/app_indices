@@ -2,17 +2,19 @@
 
 ## Objetivo do App
 
-Esse app esta sendo desenvolvida com o intuito de praticar os meus estudos e a minha lógica, assim assimilando como é o desenvolvimento de uma aplicação completa.
+Esse app esta sendo desenvolvida com o intuito de praticar os meus estudos, minha lógica e assim assimilar como é o desenvolvimento de uma API que consome API externas, guarda os dados e fornece dados.
 
 ## O que foi feito até aqui?
 
-Uma Api em JavaScript utilizando o NodeJs, express, cors e nodemon.
+Uma Api em JavaScript utilizando o NodeJs, Express, Cors, Axios, Nodemon, Sequelize e Mysql.
 
-Essa api realiza requisições de moedas em <https://economia.awesomeapi.com.br/json/USD-BRL>, recebe os resultados e faz as devidas trativas para injetar no HTML5. O final do link "USD-BRL" corresponde a cada moeda a ser consultada e para qual valor será convertido, elas são escolhidas no Front End em datalist.
+Essa APi realiza requisições externas temporizadas para obter cotações de moedas e criptomoedas, recebe esses resultados e salva no banco de dados.
 
-Nesse momento os índices financeiros ainda não estão disponíveis, somente as moedas e criptomoedas. Os dados ainda não estão sendo armazenadas em banco de dados.
+Foram criados duas rotas para consumos dos dados salvos no banco de dados.
 
-O Front End está somente em HTML5 e CSS3.
+Nesse momento os índices financeiros ainda não estão disponíveis, somente as moedas e criptomoedas.
+
+O Front End está em outro projeto e o framework é Vue.JS.
 
 **Versão 1.0** desenvolvida em **22/01/2021**
 
@@ -45,7 +47,14 @@ O Front End está somente em HTML5 e CSS3.
 
 - Alteração na estrutura do projeto.
 
-**OBS:** App em constante evolução.
+**Versão 1.7** desenvolvida em **27/02/2021**
+
+- Criação de 2 rotas para consumo da API.
+- Consulta no banco mysql com Sequelize utilizando where, order e limit.
+
+**Versão 1.8** desenvolvida em **28/02/2021**
+
+- Atualização da documentação de ajuda para consumo da API.
 
 ## Aprendizado
 

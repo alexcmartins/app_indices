@@ -1,4 +1,0 @@
-# App para consulta de índices financeiros, câmbios e criptomoedas.
-
-Materia destinado para suporte na utilização da Api.
-
