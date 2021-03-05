@@ -1,5 +1,4 @@
 const express = require('express');
-const Sequelize = require('sequelize')
 const Coin = require('../Models/Coin');
 const router = express.Router();
 

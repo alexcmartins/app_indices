@@ -2,8 +2,8 @@ const cors = require('cors');
 const express = require('express');
 const app = express();
 const port = 3000;
-const { cripto } = require('./src/Modules/api_cripto');
-const { exchange } = require('./src/Modules/api_exchange');
+const { cripto } = require('./src/Controllers/api_cripto');
+const { exchange } = require('./src/Controllers/api_exchange');
 const router = require('./src/Routes/router');
 
 app.use(cors());
