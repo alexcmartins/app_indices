@@ -6,7 +6,7 @@ Esse app esta sendo desenvolvida com o intuito de praticar os meus estudos, minh
 
 ## O que foi feito até aqui?
 
-Uma Api em JavaScript utilizando o NodeJs, Express, Cors, Axios, Nodemon, Sequelize e Mysql.
+Uma Api em JavaScript utilizando o NodeJs, Express, Cors, Axios, Nodemon, Sequelize e Postgres.
 
 Essa APi realiza requisições externas temporizadas para obter cotações de moedas e criptomoedas, recebe esses resultados e salva no banco de dados.
 
@@ -55,6 +55,10 @@ O Front End está em outro projeto e o framework é Vue.JS.
 **Versão 1.8** desenvolvida em **28/02/2021**
 
 - Atualização da documentação de ajuda para consumo da API.
+
+**Versão 1.9** desenvolvida em **25/03/2021**
+
+- Troca do SGBD de Mysql para Postgresql.
 
 ## Aprendizado
 
